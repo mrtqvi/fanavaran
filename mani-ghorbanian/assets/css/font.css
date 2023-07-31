@@ -1,0 +1,30 @@
+
+.font-effect-fire {
+    font-family: "Audiowide", sans-serif;
+    font-size: 80px;
+
+}
+
+.neon {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+}
+
+.iran {
+    font: italic small-caps bold 120px/30px Georgia, serif;
+    /*  font-style font-variant font-weight font-size/line-height font-family
+ */
+}
+
+#button {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 1mm;
+}
+
+#btext{
+    font-size: 20px; 
+    color: black;
+}

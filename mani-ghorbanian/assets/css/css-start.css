@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+hr {
+    background-color: white;
+    height: 5px;
+    width: 99%;
+    position: absolute;
+    left: 1;
+}
+
+#logoimg {
+    width: 90%;
+    height: 80%;
+    margin: 5px 5px 5px 80px;
+}
+
+.head {
+    width: 1300px;
+    height: 200px;
+}
+
+.main {
+    color: white;
+    padding: 20px 10px 10px;
+
+}
+
+.dotted {
+    border-style: dotted;
+    width: 50%;
+    padding: 10px 10px 10px;
+    border-left: 6px solid red;
+
+    /* border-width
+    border-style (required)
+    border-color */
+
+}
+
+.dashed {
+    width: 50%;
+    padding: 10px 10px 10px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+}
+
+.solid {
+    border-style: solid;
+    width: 50%;
+    padding: 10px 10px 10px;
+    border-color: red green blue yellow;
+    /* red top, green right, blue bottom and yellow left */
+
+}
+
+.double {
+    border-style: double;
+    width: 50%;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+
+}
+
+.groove {
+    border-style: groove;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+
+}
+
+.ridge {
+    border-style: ridge;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+
+}
+
+.inset {
+    border-style: inset;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+
+}
+
+.outset {
+    border-style: outset;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+
+}
+
+.none {
+    border-style: none;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+}
+
+.hidden {
+    border-style: hidden;
+    width: 50%;
+    padding: 10px 10px 10px;
+
+
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+    width: 50%;
+    padding: 10px 10px 10px;
+    border-width: 5px 6px 7px 8px;
+    /* 5px top, 6px right, 7px bottom and 8px left */
+
+}
+
+.outline {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+    padding: 5px 5px 5px;
+    width: 50%;
+
+}
+
+.ex1 {
+    outline: dashed;
+    width: 50%;
+}
+
+.ex2 {
+    outline: dotted red;
+    width: 50%;
+}
+
+.ex3 {
+    outline: 5px solid yellow;
+    width: 50%;
+}
+
+.ex4 {
+    outline: thick ridge pink;
+    width: 50%;
+}
+
+.m {
+    margin: 18px;
+    color: black;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 5px;
+    width: 50%;
+}
+
+.q {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 120%;
+    color: white;
+    text-shadow: 1px 1px 2px limegreen, 0 0 25px lightgreen, 0 0 50px lemonchiffon;
+}
+
+.q1 {
+    letter-spacing: -2px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: underline red double 5px;
+}
+
+.q2 {
+    color: white;
+    text-align-last: left;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: double;
+    text-decoration-thickness: 3px;
+    text-transform: capitalize;
+    text-indent: 5px;
+
+}
+
+img {
+    vertical-align: sub;
+    height: 20px;
+    width: 20px;
+}
+
+body {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}

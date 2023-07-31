@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+
+}
+
+body {
+    height: 95vb;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+        display: flex;
+    flex: 1 1 300px;
+    
+}
+
+header {
+    padding: 0 0 0;
+}
+
+main{
+     padding: 1cm 3cm 0;
+    flex: 1;
+}
+
+.right{
+     padding: 1mm 0 0;
+}
+
+main {
+    color: white;
+}
+
+footer {
+    color: white;
+    padding: 0cm 3cm 0;
+}
+
+.hr1 {
+    background-color: white;
+}
+
+a:link,
+:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.hr2 {
+    background-color: white;
+
+}
+
+.p1 {
+    border-top: 4px dashed white;
+    text-align: right;
+    width: 99%;
+    position: absolute;
+    left: 0;     
+}
+
+.lfoot {
+    position: absolute;
+    left: 0;
+}
+
+.main1{
+    text-align: center ;
+}
+
+.footer1{
+ color: white;
+}
+
+#vidio{
+      height: 300px;
+}

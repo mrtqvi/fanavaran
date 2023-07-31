@@ -1,0 +1,95 @@
+ #hr1 {
+        color: white;
+    }
+
+    #table {
+        color: white;
+    }
+
+    #htmlq {
+        color: #ff822e;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    #htmldescription {
+        color: white;
+    }
+
+    #htmlimg {
+        background-color: white;
+        border: 5px solid #ff822e;
+        float: left;
+        width: 10%;
+    }
+
+    #HyperTextq {
+        color: #1da64a;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    #HyperTextdescription {
+        color: white;
+    }
+
+    #cssq {
+        color: #2C1DFF;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    #cssdescription {
+        color: white;
+    }
+
+    #cssimg {
+        background-color: white;
+        border: 5px solid #2C1DFF;
+        float: left;
+        width: 10%;
+    }
+
+    #phpq {
+        color: #512da8;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    #phpdescription {
+        color: white;
+    }
+
+    #phpimg {
+        background-color: white;
+        border: 5px solid #512da8;
+        float: left;
+        width: 10%;
+    }
+
+    #hypertextimg {
+        background-color: white;
+        border: 5px solid #1da64a;
+        float: left;
+        width: 10%;
+        height: 130px;
+    }
+
+    a:link,
+    :visited {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: green;
+        background-color: transparent;
+        text-decoration: underline;
+    }

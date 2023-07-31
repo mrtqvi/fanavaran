@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Register</title>
+</head>
+
+<body style="color: white;">
+    <img src="/images/mylogo.jpg" alt="my logo" width="1310px" height="200px">
+    <hr style="background-color: white; size: 100px;">
+
+    <form action="">
+        <h1>ثبت نام در سایت</h1>
+
+        <label for="fname">نام:</label>
+        <input type="text" name="fname" id="fname" placeholder="نام خود را وارد کنید:" required>
+        <label for="lname">خانوادگی:</label>
+        <input type="text" name="lname" id="lname" placeholder="نام خانوادگی خود را وارد کنید:" required>
+        <br><br>
+        <label for="password">رمز عبور:</label>
+        <input type="text" name="password" id="password" placeholder="رمز عبور" required minlength="8" maxlength="68">
+        <label for="repetitionforpassword">تکرار رمز عبور:</label>
+        <input type="text" name="repetitionforpassword" id="repetitionforpassword" placeholder=" تکرار رمز عبور"
+            required minlength="8" maxlength="68">
+        <br><br>
+        <label for="phnumber">شماره تلفن:</label>
+        <input type="text" name="phnumber" id="phnumber" placeholder="شماره تلفن" required>
+        <label for="email">ایمیل:</label>
+        <input type="text" name="email" id="email" placeholder="abcd@hmail.com:مثال " required>
+        <br><br>
+        <h2>جنسیت :</h2>
+
+        <label for="gender"></label>
+        <input type="radio" name="gender" id="gender">مرد
+        <label for="gender"></label>
+        <input type="radio" name="gender" id="gender">زن
+        <br><br>
+        <h2>علاقه مندی های شما:</h2>
+        <label for="tec">تکنولوژی</label><input type="checkbox" name="tec" id="tec">
+        <label for="sport">ورزش</label><input type="checkbox" name="sport" id="sport">
+        <label for="book">کتاب</label><input type="checkbox" name="book" id="book">
+        <label for="cook">آشپزی</label><input type="checkbox" name="cook" id="cook">
+        <label for="trip">سفر و گردش</label><input type="checkbox" name="trip" id="trip">
+        <br><br>
+        <label for="Waysofcommunication">چگونه با ما اشنا شدید؟</label>
+        <select name="Waysofcommunication" id="Waysofcommunication">
+            <option value="frinds">ذوستان و آشنایان</option>
+            <option value="tel">از طریق تلگرام</option>
+            <option value="insta">از طریق اینستاگرام</option>
+            <option value="other">دیگر موارد ارتباطی</option>
+        </select>
+        <br><br>
+        <label for="Agreement">با قوانین سایت موافقم</label>
+        <input type="checkbox" name="Agreement" id="Agreement">
+        <br><br>
+        <input type="submit" value="ثبت نام" style="background-color: white; color: black; width: 70px; height: 25px;">
+        <button style="float: left;width: 70px; height: 25px; color: black; background-color: white;">
+            <a href="/realmani/index.html" style="color: black;">
+                برگشت
+                <style>
+                    a:link,
+                    a:visited {
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                    }
+
+                    a:active {
+                        text-decoration: none;
+                    }
+                </style>
+            </a>
+        </button>
+    </form>
+    <br>
+</body>
+
+</html>
