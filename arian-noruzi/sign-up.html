@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+</head>
+
+<body dir="rtl">
+    <form action="" method="post">
+        <h1>ثبت نام در سایت</h1>
+        <label for="first_name">نام</label>
+        <input type="text" name="first name" id="first_name" required placeholder="نام خود را وارد کنید">
+        <label for="last_name">نام خانوادگی</label>
+        <input type="text" name="last name" id="last_name" required placeholder="نام خانوادگی خود را وارد کنید">
+        <br><br>
+        <label for="password">کلمه عبور</label>
+        <input type="password" name="password" id="password" required minlenght="8" maxlenght="64"
+            placeholder="رمز عبور را وارد کنید">
+        <label for="repeat_password">تکرار کلمه عبور</label>
+        <input type="password" name="password" id="repeat_password" required minlenght="8" maxlenght="64"
+            placeholder="رمز عبور را دوباره وارد کنید">
+        <br><br>
+        <label for="phone_number">شماره تلفن</label>
+        <input type="number" name="phone number" id="phone_number" required placeholder="مثلا:09123456789">
+        <label for="email">آدرس ایمیل</label>
+        <input type="email" name="email" id="email" required placeholder="مثلا:kiko.86.86.kiko@gnail.com">
+        <br><br>
+        جنسیت:
+        <br>
+        <label for="female">زن</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="male">مرد</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="none">علاقه‌ای به گفتن آن ندارم</label>
+        <input type="radio" name="gender" value="none" id="none" checked>
+        <br><br>
+        علاقه‌مندی های شما
+        <br>
+        ورزش
+        <input type="checkbox" name="interests" value="sports">
+        موسیقی
+        <input type="checkbox" name="interests" value="music">
+        تکنولوژی
+        <input type="checkbox" name="interests" value="technology">
+        سفر
+        <input type="checkbox" name="interests" value="traveling">
+        کتاب خواندن
+        <input type="checkbox" name="interests" value="reading">
+        سایر مواراد
+        <input type="checkbox" name="interests" value="others">
+        <br><br>
+        <label for="acquaintance">چگونه با ما آشنا شدید؟</label>
+        <select name="acquaintance" id="acquaintance">
+            <option value="friends and acquaintences">دوستان و آشنایان</option>
+            <option value="by Telegram">تلگرام</option>
+            <option value="by Instagram">اینستاگرام</option>
+            <option value="other ways">راه‌های ارتباطی دیگر</option>
+        </select>
+        <br><br>
+        <label for="agreement">با قوانین این سایت موافقم</label>
+        <input type="radio" name="agreement" id="agreement" required>
+        <br><br>
+        <input type="submit" value="تکمیل ثبت نام">
+
+
+    </form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ثبت نام</title>
+</head>
+<body dir="rtl">
+    <h1>ثبت نام در سایت</h1>
+    <form action="" method="post">
+        <label for="first-name">نام*</label>
+        <input type="text" name="first-name" id="first-name" required>
+        <br>
+        <br>
+        <label for="last-name">نام خانوادگی*</label>
+        <input type="text" name="last-name" id="last-name" required>
+        <br>
+        <br>
+        <label for="password">رمز عبور*</label>
+        <input type="password" name="password" id="password" required maxlength="64" minlength="8">
+        <br>
+        <br>
+        <label for="password-re">تکرار کلمه عبور*</label>
+        <input type="password" name="password-re" id="password-re" required maxlength="64" minlength="8">
+        <br>
+        <br>
+        <label for="number">شماره تلفن*</label>
+        <input type="number" name="number" id="number" required placeholder="09123456786">
+        <br>
+        <br>
+        <label for="email">ایمیل*</label>
+        <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+        <br>
+        <br>
+        <p>جنسیت</p>
+        <label for="man">مرد</label>
+        <input type="radio" name="sex" id="man" checked>
+        <label for="woman">زن</label>
+        <input type="radio" name="sex" id="woman">
+        <p>علاقه مندی های شما</p>
+        <label for="tec">تکنولوژی</label>
+        <input type="checkbox" name="tec" id="tec">
+        <br>
+        <label for="var">ورزش</label>
+        <input type="checkbox" name="var" id="var">
+        <br>
+        <label for="ket">کتاب</label>
+        <input type="checkbox" name="ket" id="ket">
+        <br>
+        <label for="ash">آشپزی</label>
+        <input type="checkbox" name="ash" id="ash">
+        <br>
+        <p>چگونه با ما اشنا شدید؟</p>
+        <select name="how" id="how">
+            <option value="family">دوستان وآشنایان</option>
+            <option value="telegram">از طریق تلگرام</option>
+            <option value="inestagram">از طریف اینستا گرام</option>
+            <option value="other">دیگر موارد ارتباطی</option>
+        </select>
+        <br>
+        <br>
+        <button>ثبت اطلاعات</button>
+        </form>
+</body>
+</html>
